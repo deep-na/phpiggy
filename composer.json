@@ -6,6 +6,13 @@
         "psr-4": {
             "Framework\\":"src/Framework",
             "App\\":"src/App"
-        }
+        },
+        "files" : [
+            "src/App/config/Routes.php",
+            "src/App/config/Middleware.php"
+        ]
+    },
+    "scripts": {
+        "phpiggy":"php cli.php"
     }
 }
